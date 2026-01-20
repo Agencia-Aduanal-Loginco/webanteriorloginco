@@ -1,0 +1,344 @@
+/*------------------------------------*\
+    LOGINCO CUSTOM STYLES
+\*------------------------------------*/
+
+/* Colores y Tipografía */
+.textoBlanco {
+    color: white;
+}
+
+.textoGrisClaro {
+    color: #E8E7E7;
+}
+
+.textoMorado {
+    color: #7D7FB6;
+}
+
+.textoNegrito {
+    font-weight: bold;
+}
+
+.tsize {
+    font-size: 2rem;
+}
+
+.flotar {
+    position: relative;
+}
+
+.w-5 {
+    width: 5% !important;
+}
+
+.bordeVerde {
+    border: 1px solid #2AB8B4;
+}
+
+input::placeholder {
+    font-size: 0.5rem;
+}
+
+progress {
+    width: 100%;
+    height: 8px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #E8E7E7;
+    border-radius: 4px;
+}
+
+progress::-webkit-progress-value {
+    background: #2AB8B4;
+    border-radius: 4px;
+}
+
+progress::-moz-progress-bar {
+    background: #2AB8B4;
+    border-radius: 4px;
+}
+
+.botonVerde {
+    background-color: #2AB8B4;
+    color: white;
+}
+
+/* Header/Encabezado */
+.encabezado {
+    background: url(../img/ImagenPrincipal.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    min-height: 600px;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem !important;
+}
+
+.nav-link.active {
+    font-weight: bold !important;
+    color: #2AB8B4 !important;
+}
+
+.nav-link:hover {
+    color: #2AB8B4 !important;
+}
+
+.logotipoEncabezado > img {
+    width: 10%;
+    height: auto;
+    margin-left: 3rem;
+}
+
+.iconoFacebookEncabezado > img {
+    width: 20%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.iconoFacebookEncabezado > img:hover {
+    transform: scale(1.1);
+}
+
+.contenedorEsloganEncabezado {
+    width: 50%;
+    position: relative;
+}
+
+.contenedorEsloganEncabezado > img {
+    width: 100%;
+}
+
+.esloganUnoEncabezado {
+    width: 65%;
+    margin-left: 3rem;
+    border: solid 3px #7E7FB6;
+    margin-top: 6rem;
+    padding: 0.5rem;
+}
+
+.esloganDosEncabezado {
+    width: 60%;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    background: rgba(255, 255, 255, 0);
+    text-align: center;
+}
+
+.esloganDosEncabezado > h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.esloganDosEncabezado > p {
+    font-size: 1.5rem;
+}
+
+/* Botones */
+.btn-loginco {
+    background: #00058C;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    border: none;
+}
+
+.btn-loginco:hover {
+    background: #000470;
+    color: white;
+}
+
+.btn-loginco-servicios {
+    background: white;
+    color: black;
+    text-transform: uppercase;
+    border: solid 2px #7E7FB6;
+    font-weight: bold;
+}
+
+.btn-loginco-servicios:hover {
+    background: #7E7FB6;
+    color: white;
+    border-color: #7E7FB6;
+}
+
+/* Sección de Servicios */
+.ServiciosEncabezado {
+    background-color: #2AB8B4;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.iconos-servicios > img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.iconos-servicios h5 {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.fotoEquipo {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer/Pie de Página */
+.piedePagina {
+    background-color: #00058C;
+    width: 100%;
+    color: white;
+    padding-bottom: 2rem;
+    margin-top: 4rem;
+}
+
+.onditaPiePagina {
+    display: inline;
+    width: 10%;
+}
+
+.esloganPiePagina,
+.tituloLoginco {
+    display: inline;
+}
+
+.parrafoPiedepagina {
+    font-size: 0.8rem;
+}
+
+.patentesPiedepagina {
+    border-right: solid 1px white;
+}
+
+.logoPiedePagina {
+    width: 58%;
+}
+
+.ondaPiepagina {
+    position: relative;
+    top: -65px;
+    left: 0;
+}
+
+.ondaPiepagina > img {
+    width: 100%;
+}
+
+/* Página Loginco */
+.encabezadoLoginco {
+    background: url(../img/Slider-Loginco.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.esloganLoginco {
+    top: 13rem;
+    left: 4rem;
+}
+
+.logincoPoliticaCalidad {
+    background-color: #2AB8B4;
+    color: white;
+    padding: 2rem 0;
+}
+
+/* Página Servicios */
+.encabezadoServicios {
+    background: url(../img/Slider-Servicios.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.servicioCotizar {
+    background-color: #2AB8B4;
+    color: white;
+    padding: 2rem 0;
+}
+
+.tituloAzul {
+    color: #2EBBB7;
+}
+
+.serviciosIconos {
+    padding-left: calc((100% - 149px)/2);
+}
+
+/* Página Alianzas */
+.encabezadoAlianzas {
+    background: url(../img/Slider-Alianzas.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+/* Página Blog */
+.encabezadoBlog {
+    background: url(../img/Slider-Noticias.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+/* Página Contacto */
+.encabezadoContacto {
+    background: url(../img/Slider-Contacto.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+    .logotipoEncabezado > img {
+        width: 30%;
+        margin-left: 1rem;
+    }
+    
+    .contenedorEsloganEncabezado {
+        width: 80%;
+    }
+    
+    .iconoFacebookEncabezado > img {
+        width: 40%;
+    }
+    
+    .nav {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .encabezado {
+        height: auto;
+        min-height: 400px;
+    }
+    
+    .logotipoEncabezado > img {
+        width: 50%;
+    }
+}
+
+/* Utilidades */
+.text-justify {
+    text-align: justify;
+}
+
+.wrapper {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
